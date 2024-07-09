@@ -1,0 +1,51 @@
+.title{
+    width: 100%;
+}
+
+.paragraph{
+    width: 100%;
+    padding: 10px 0;
+    height: auto;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.second p{
+    width: 80%;
+}
+
+.img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media(max-width: 800px){
+    .content{
+        margin-bottom: 10vh;
+    }
+
+    .second{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .second p{
+
+        width: 100%;
+    }
+}

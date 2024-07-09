@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline-width: 0;
+}
+
+body{
+    background-color: #000;
+    background-image: url(Black_hole_representation.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    min-height: 80vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ocult{
+    display: none;
+}
+
+/*Menu*/
+nav{
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.menu{
+    width: 50%;
+}
+
+.menu .hamburger{
+    display: none;
+}
+
+.menu .hamburger img{
+    width: 40px;
+    cursor: pointer;
+    padding-right: 10px;
+    transition: 0.5s;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a:hover{
+    color: #A61103;
+}
+
+.menu ul li a img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+@media (max-width:800px){
+    .menu .hamburger{
+        display: flex;
+    }
+
+    .menu .hamburger img:hover{
+        transform: scale(1.1);
+    }
+
+    .menu{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .menu .nav-links{
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu .nav-links li{
+        width: 150px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        transition: 0.5s;
+    }
+
+    .menu .nav-links li:hover{
+        background-color: #757575;
+    }
+
+    .nav-links.open-menu{
+        display: flex;
+    }
+}
+
+/**/
+
+p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.emphasis{
+    color: #F25D07;
+}

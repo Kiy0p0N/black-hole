@@ -1,0 +1,53 @@
+.container{
+    margin-bottom: 10vh;
+}
+
+.content{
+    width: 70%;
+    margin-right: 30px;
+}
+
+.space{
+    margin-bottom: 2vh;
+}
+
+.additional ul{
+    margin-left: 20px;
+}
+
+.additional ul li{
+    margin: 10px 0;
+}
+
+.graduation{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graduation img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1000px){
+    .container{
+        display: block;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .graduation{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .graduation img{
+        width: 100%;
+    }
+}
