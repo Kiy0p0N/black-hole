@@ -18,6 +18,7 @@ $(document).ready(function(){
             var h1Size = parseFloat($('h1').css('font-size'))
             var h2Size = parseFloat($('h2').css('font-size'))
             var pSize = parseFloat($('p').css('font-size'))
+            var liSize = parseFloat($('.space li').css('font-size'))
             
             //tamanho das imagens
             var catImg = $('.cat img').width()
@@ -27,13 +28,14 @@ $(document).ready(function(){
 
             if(currentContainerWidth > 0){
                 //diminuindo o container
-                $('.container').width(currentContainerWidth - 2.3)
+                $('.container').width(currentContainerWidth - 2.7)
                 $('.container').height(currentContainerHeight - 1)
 
                 //diminuindo as fontes
                 $('h1').css('font-size', (h1Size - 0.08) + 'px')
                 $('h2').css('font-size', (h2Size - 0.06) + 'px')
                 $('p').css('font-size', (pSize - 0.04) + 'px')
+                $('.space li').css('font-size', (liSize - 0.04) + 'px')
                 
                 //diminuido as imagens
                 $('.cat img').width(catImg - 0.7)

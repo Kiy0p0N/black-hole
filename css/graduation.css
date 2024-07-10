@@ -1,6 +1,4 @@
-.container{
-    margin-bottom: 10vh;
-}
+
 
 .content{
     width: 70%;
@@ -11,7 +9,7 @@
     margin-bottom: 2vh;
 }
 
-.additional ul{
+ul{
     margin-left: 20px;
 }
 
@@ -26,16 +24,9 @@
     align-items: center;
 }
 
-.graduation img{
-    width: 350px;
-    border-radius: 10px;
-}
 
 
 @media (max-width: 1000px){
-    .container{
-        display: block;
-    }
 
     .content{
         width: 100%;
